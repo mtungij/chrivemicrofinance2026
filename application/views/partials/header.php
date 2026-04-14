@@ -16,7 +16,7 @@ $html_lang = ($ui_lang === 'swahili') ? 'sw' : 'en';
 
 
 
-<link rel="manifest" href="/manifest.json?v=8">
+<link rel="manifest" href="/manifest.json?v=9">
 <meta name="theme-color" content="#0d6efd">
 <link rel="apple-touch-icon" href="/assets/images/chrivemicrofinance-192.png">
 <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
