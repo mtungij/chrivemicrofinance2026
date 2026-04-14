@@ -1,0 +1,28 @@
+# docker run -it -d \
+#   --label traefik.http.routers.jivushemicrofinance.rule=Host\(\`jivushemicrofinance.com\`\) \
+#   --label traefik.http.routers.jivushemicrofinance.tls.certresolver=lets-encrypt \
+#   --label traefik.http.routers.jivushemicrofinance.tls=true \
+#   --label traefik.http.routers.jivushemicrofinance.service=jivushemicrofinance-credit-http \
+#   --label traefik.http.services.jivushemicrofinance-credit-http.loadbalancer.server.port=80 \
+#   --name jivushemicrofinance \
+#   --network web \
+#   --restart always \
+#   --expose 80 \
+# mikoposoft/nackcredit:latest 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
