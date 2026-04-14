@@ -12,8 +12,8 @@
 
 
 
-<link rel="manifest" href="/manifest.json?v=5">
-<link rel="apple-touch-icon" href="/assets/images/chrivemicrofinance.png">
+<link rel="manifest" href="/manifest.json?v=6">
+<link rel="apple-touch-icon" href="/assets/images/chrivemicrofinance-192.png">
 <meta name="theme-color" content="#0d6efd">
 
 <script>

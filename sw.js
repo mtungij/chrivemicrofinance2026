@@ -1,7 +1,8 @@
-const CACHE_NAME = 'loan-pocket-v5';
+const CACHE_NAME = 'loan-pocket-v6';
 const ASSETS_TO_CACHE = [
   '/',
-  '/assets/images/chrivemicrofinance.png',
+  '/assets/images/chrivemicrofinance-192.png',
+  '/assets/images/chrivemicrofinance-512.png',
   '/public/css/output.css',
   // Add other assets you want cached here
 ];
