@@ -16,35 +16,11 @@
 <link rel="apple-touch-icon" href="/assets/images/chrivemicrofinance.png">
 <meta name="theme-color" content="#0d6efd">
 
-
-
-<button id="install-btn" onclick="promptInstall()" style="display:none; position:fixed; bottom:20px; right:20px; padding:10px 20px; background:#0d6efd; color:white; border:none; border-radius:5px;">
-  Install App
-</button>
-
 <script>
 if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('/sw.js')
         .then(() => console.log('Service Worker Registered'))
         .catch(err => console.log('SW Error: ', err));
-}
-
-// Optional: Listen for beforeinstallprompt to trigger install manually
-let deferredPrompt;
-window.addEventListener('beforeinstallprompt', (e) => {
-    e.preventDefault();
-    deferredPrompt = e;
-    // Example: show a button to install
-    // document.getElementById('install-btn').style.display = 'block';
-});
-
-function promptInstall() {
-    if (deferredPrompt) {
-        deferredPrompt.prompt();
-        deferredPrompt.userChoice.then(choice => {
-            deferredPrompt = null;
-        });
-    }
 }
 </script>
 
